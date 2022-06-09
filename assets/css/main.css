@@ -1,0 +1,163 @@
+/* untuk Header */
+.main-nav {
+    background-color: #31572C;
+}
+.main-nav .navbar-nav a.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.main-nav .navbar-nav .nav-link.active,.main-nav .navbar-nav .nav-link:hover {
+    color: #ECF39E;
+}
+.navbar.scrolled {
+    background-color: #fff;
+    transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -ms-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    box-shadow:  ;
+}
+.navbar.scrolled a.nav-link{
+    color: #666
+}
+.navbar img.main-logo{
+    max-width: 150px;
+}
+.navbar img.main-logo-hitam{
+    display: none;
+}
+.navbar.scrolled img.main-logo-hitam{
+    display: inline-block;
+}
+.navbar.scrolled img.main-logo-putih{
+    display: none;
+}
+
+
+/* Untuk Global */
+.main-hijau {
+    background-color: #31572c;
+    color: #fff;
+}
+.main-hijau h2 span {
+    color: #ECF39E;
+}
+.btn-success {
+    background-color: #ECF39E;
+    color: #31572C;
+    border: #fff;
+}
+h2.main-judul::after {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 10px solid #ECF39E;
+    width: 100px;
+    content: "";
+}
+.main-grey{
+    background-color: #f9f9f9;
+}
+.main-atas-judul{
+    color: #999;
+    font-size: 27px;
+    font-weight: 600;
+
+}
+a:hover{
+    transition: 0,5s ease;
+    -webkit-transition: 0,5s ease;
+    -moz-transition: 0,5s ease;
+    -ms-transition: 0,5s ease;
+    -o-transition: 0,5s ease;
+}
+
+/* untuk bbagian kolaborasi */
+#main-kolaborasi img {
+    max-height: 50px;
+    max-width: 150px;
+
+}
+#main-kolaborasi a {
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* untuk blog */
+.main-blog-info img{
+    width: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.main-blog-info{
+    color: #666;
+    position: relative;
+}
+.main-blog-info a{
+    padding-right: 15px;
+    color: #666;
+    text-decoration: none;
+}
+.main-blog-info a:hover{
+    color: #90A955;
+}
+#blog .main-blog-info span{
+    font-size: 14px;  
+
+}
+#blog a{
+    text-decoration: none;
+    color: #666;
+}
+#blog a:hover{
+    color: #90A955;
+}
+#blog-detail .main-blog-info img{
+    float: none;
+}
+#blog-detail .main-blog-info span:before{
+    content: "";
+    top: 0px;
+    margin-bottom: 3px;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: #ccc;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* rooter */
+.main-footer-menu h3{
+    color: #ccc;
+    margin bottom: 15px;
+}
+.main-footer-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.main-footer-menu a:hover{
+    color: #90A955;
+}
+.main-footer-menu ul{
+    list-style-type: none;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+.main-footer-menu ul li{
+    margin-bottom: 10px;
+}
+.main-footer-copyright{
+    background-color: #90A955;
+    color: #fff;
+}
+
